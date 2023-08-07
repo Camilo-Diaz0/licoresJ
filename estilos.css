@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu {
+    background-color: #000;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    height: 3.5rem;
+    width: 100%;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.menu ul a {
+    color: #d8d8d8;
+    text-decoration: none;
+}
