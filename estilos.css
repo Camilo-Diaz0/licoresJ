@@ -29,24 +29,42 @@ nav{
     align-items: center;
     justify-content: center;
 }
+.logo-menu{
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    /* background-color: #000; */
+    border: 2px solid #d8d8d8;
+    background-color: #000;
+    display: block;
+    position: absolute;
+    left: 2rem;
+    top: 0.2rem;
+}
+.logo-menu img{
+    width: 90%;
+    object-fit: fill;
+    display: block;
+    margin: auto;
+}
 
-.menu ul a {
+.item-menu {
     color: #c0c0c0;
     text-decoration: none;
     display: flex;
     gap: 0.5rem;
     align-items: center;
 }
-.menu ul a:hover{
+.item-menu:hover{
     color: #000;
     text-decoration:underline;
     
 }
-.menu ul a:hover div{
+.item-menu:hover div{
     fill: #000;
     border-color: #000;
 }
-.menu li a div{
+.item-menu div{
     height: 1.5rem;
     width: 1.5rem;
     display: flex;
@@ -72,6 +90,8 @@ nav{
     flex-direction: column;
     font-size: x-large;
     gap: 4rem;
+    background-color: #f3f2f2;
+    padding: 2rem 0;
 }
 
 .prod-item{
@@ -79,7 +99,7 @@ nav{
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     row-gap: 2.5rem;
     margin: 0 auto;
@@ -92,13 +112,14 @@ nav{
 }
 .card{
     width: 20%;
-    height: 20rem;
+    height: 23rem;
     display: flex;
     flex-direction: column;
-    font-size: medium;
-    border: 1px solid #d8d8d8;
+    font-size: large;
+    border: 2px solid #d8d8d8;
     padding: 0.4rem;
     border-radius: 1rem;
+    background-color: #fff;
 }
 .card img{
     width: 100%;
@@ -118,6 +139,55 @@ nav{
 .card-desc h4, .card-desc p{
     margin: 0;
 }
+#contacto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+    gap: 1rem;
+}
+.container-contacto{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+}
+.item-conct{
+    width: 40%;
+    height: 25.2rem;
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: #f3f2f2;
+}
+.separador{
+    height: 25.2rem;
+    width: 0.12rem;
+    background-color: #d8d8d8;
+}
 
-
-
+.item-conct img{
+    height: 15rem;
+    width: 85%;
+    object-fit: contain;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.2rem;
+    
+}
+.info h4{
+    margin-top: 3rem;
+}
+.info a{
+    display: block;
+    color: #5a5a5a;
+}
+.info a:hover{
+    color: #000;
+    scale: 1.08;
+}
