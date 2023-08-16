@@ -8,7 +8,7 @@
         "licor2":{
             "nombre": "Ron viejo de Caldas",
             "precio": 27000,
-            "url": "../imagen/productos/ron.png"
+            "url": "../imagen/productos/aguardiente.png"
         },
         "licor3":{
             "nombre": "Ron viejo de Caldas",
