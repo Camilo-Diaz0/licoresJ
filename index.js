@@ -1,6 +1,6 @@
 const leerProductos = async() =>{
     try{
-        const peticion = await fetch("productos.txt");
+        const peticion = await fetch("datos/productos.txt");
         if(peticion.status == 200){
             const resultado = await peticion.json();
             return resultado
@@ -27,7 +27,6 @@ const crearCard = (producto) =>{
 
     desc.appendChild(h4);
     desc.appendChild(parrafo);
-
     card.appendChild(imagen);
     card.appendChild(desc);
 

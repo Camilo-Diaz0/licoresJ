@@ -3,6 +3,9 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Raleway', sans-serif;
 }
+h2{
+    font-size: 2.2rem;
+}
 
 nav{
     position: relative;
@@ -89,9 +92,12 @@ nav{
     justify-content: center;
     flex-direction: column;
     font-size: x-large;
-    gap: 4rem;
+    gap: 6.5rem;
     background-color: #f3f2f2;
     padding: 2rem 0;
+}
+#productos h2{
+    margin-bottom: 0;
 }
 
 .prod-item{
@@ -108,7 +114,7 @@ nav{
 .prod-item h3{
     margin: 0;
     position: absolute;
-    top: -3rem;
+    top: -3.6rem;
     left: 1rem;
 }
 .card{
@@ -122,6 +128,7 @@ nav{
     padding: 0.4rem;
     border-radius: 1rem;
     background-color: #fff;
+    box-shadow: -9px 3px 1.4rem #bababa;
 }
 .card img{
     width: 100%;

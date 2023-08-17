@@ -1,0 +1,82 @@
+{
+    "licores":{
+        "licor1":{
+            "nombre": "Ron viejo de Caldas",
+            "precio": 27000,
+            "url": "imagen/productos/ron.png"
+        },
+        "licor2":{
+            "nombre": "Ron viejo de Caldas",
+            "precio": 27000,
+            "url": "imagen/productos/aguardiente.png"
+        },
+        "licor3":{
+            "nombre": "Ron viejo de Caldas",
+            "precio": 27000,
+            "url": "imagen/productos/ronEsencial.png"
+        },
+        "licor4":{
+            "nombre": "Ron viejo de Caldas",
+            "precio": 27000,
+            "url": "imagen/productos/tapaAzul.png"
+        },"licor5":{
+            "nombre": "Ron viejo de Caldas",
+            "precio": 27000,
+            "url": "imagen/productos/black.png"
+        }
+
+    },"cervezas":{
+        "cerveza1":{
+            "nombre": "Ron viejo de Caldas",
+            "precio": 27000,
+            "url": "imagen/productos/aguila.png"
+        },
+        "cerveza2":{
+            "nombre": "Ron viejo de Caldas",
+            "precio": 27000,
+            "url": "imagen/productos/poker.png"
+        },
+        "cerveza3":{
+            "nombre": "Ron viejo de Caldas",
+            "precio": 27000,
+            "url": "imagen/productos/redds.png"
+        },
+        "cerveza4":{
+            "nombre": "Ron viejo de Caldas",
+            "precio": 27000,
+            "url": "imagen/productos/coronita.png"
+        },
+        "cerveza5":{
+            "nombre": "Ron viejo de Caldas",
+            "precio": 27000,
+            "url": "imagen/productos/budweiser.png"
+        },
+        "cerveza6":{
+            "nombre": "Ron viejo de Caldas",
+            "precio": 27000,
+            "url": "imagen/productos/smirnoff-ori.png"
+        },
+        "cerveza7":{
+            "nombre": "Ron viejo de Caldas",
+            "precio": 27000,
+            "url": "imagen/productos/smirnoff-green.png"
+        }
+
+    },"cigarros":{
+        "cigarros1":{
+            "nombre": "Ron viejo de Caldas",
+            "precio": 27000,
+            "url": "imagen/productos/chesterfield.png"
+        },
+        "cigarros2":{
+            "nombre": "Ron viejo de Caldas",
+            "precio": 27000,
+            "url": "imagen/productos/chesterfield-white.png"
+        },
+        "cigarros3":{
+            "nombre": "Ron viejo de Caldas",
+            "precio": 27000,
+            "url": "imagen/productos/chesterfield-green.png"
+        }
+    }
+}
