@@ -1,3 +1,4 @@
+const itemMenu = document.querySelectorAll(".item-menu")
 const leerProductos = async() =>{
     try{
         const peticion = await fetch("datos/productos.txt");
@@ -58,3 +59,26 @@ window.addEventListener("DOMContentLoaded", async() =>{
     añadir(resultado);
 
 })
+
+const colorMenu = (a,lista)=>{
+    lista.forEach(aItem =>{
+        if(aItem === a) aItem.classList.replace("noSel","sel");
+        else aItem.classList.replace("sel","noSel");
+    })
+}
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry =>{
+        const id = entry.target.getAttribute("id");
+        const aMenu = document.querySelector(`.menu a[href = "#${id}"]`);
+        if(entry.isIntersecting){
+            colorMenu(aMenu,itemMenu);
+        }    
+    });
+
+},{rootMargin: "-50% 0px -50% 0px"});
+
+itemMenu.forEach(a =>{
+    const hash = a.getAttribute("href");
+    const target = document.querySelector(hash);
+    if(target) observer.observe(target);
+});

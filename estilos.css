@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
@@ -5,11 +8,10 @@ body {
 }
 h2{
     font-size: 2.2rem;
+    margin-top: 4rem;
 }
 
 nav{
-    position: relative;
-    height: 3.5rem;
     width: 100%;
 }
 
@@ -58,10 +60,19 @@ nav{
     gap: 0.5rem;
     align-items: center;
 }
-.item-menu:hover{
+.sel{
     color: #000;
     text-decoration:underline;
-    
+    fill: #000;
+    border-color: #000;
+}
+.noSel{
+    fill: #c0c0c0;
+    border-color: #c0c0c0;
+}
+
+.item-menu:hover{
+    color: #000;
 }
 .item-menu:hover div{
     fill: #000;
@@ -74,13 +85,13 @@ nav{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    border: 1px solid #c0c0c0;
-    fill: #c0c0c0;
+    border: 1px solid;
 }
 .imagen{
     display: flex;
     width: 100%;
     height: 43.38rem;
+    padding-top: 3.5rem;
 }
 .imagen img{
     object-fit: fill;
@@ -119,7 +130,7 @@ nav{
 }
 .card{
     width: 20%;
-    height: 23rem;
+    height: 22rem;
     display: flex;
     flex-direction: column;
     align-items: center;
