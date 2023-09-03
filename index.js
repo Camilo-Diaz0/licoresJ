@@ -1,4 +1,5 @@
-const itemMenu = document.querySelectorAll(".item-menu")
+const itemMenu = document.querySelectorAll(".item-menu");
+const ulMenu = document.querySelector(".ul-menu");
 const leerProductos = async() =>{
     try{
         const peticion = await fetch("datos/productos.txt");
@@ -54,11 +55,15 @@ const añadir = (productos) =>{
 }
 
 window.addEventListener("DOMContentLoaded", async() =>{
-    console.log("jaaja");
+    if(window.screen.width <= 650) {
+        cambiarImagen(1)
+    }
+
     let resultado = await leerProductos()
     añadir(resultado);
 
 })
+
 
 const colorMenu = (a,lista)=>{
     lista.forEach(aItem =>{
@@ -82,3 +87,27 @@ itemMenu.forEach(a =>{
     const target = document.querySelector(hash);
     if(target) observer.observe(target);
 });
+
+document.querySelector(".icon-menu").addEventListener("click", () =>{
+    ulMenu.classList.add("open-menu");
+});
+document.querySelector(".close-menu").addEventListener("click", () =>{
+    ulMenu.classList.remove("open-menu");
+});
+
+
+cambiarImagen = (opc) =>{
+    let url;
+    if(opc == 1) url =  "imagen/licoresMovil.jpg";
+    if(opc == 2) url = "imagen/Licores j.jpg";
+
+    let img = document.querySelector(".imagen img");
+    if(img.getAttribute("src") !== url){
+        img.setAttribute("src",url);
+    }
+}
+window.onresize = function() {
+    let ancho = window.innerWidth;
+    if(ancho <= 650) cambiarImagen(1);
+    if(ancho > 650) cambiarImagen(2);
+}  
