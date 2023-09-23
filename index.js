@@ -54,6 +54,11 @@ const añadir = (productos) =>{
 
 }
 
+window.onload = function(){
+    let preLoad = document.querySelector(".preLoad");
+    preLoad.style = "display: none;"
+}
+
 window.addEventListener("DOMContentLoaded", async() =>{
     let resultado = await leerProductos()
     añadir(resultado);
@@ -82,13 +87,11 @@ itemMenu.forEach(a =>{
     const hash = a.getAttribute("href");
     const target = document.querySelector(hash);
     if(target) observer.observe(target);
+    
     a.addEventListener("click", () =>{
-        console.log(ulMenu.classList[1])
         if(ulMenu.classList[1] == "open-menu"){
-        
             ulMenu.classList.remove("open-menu");
         }
-        
     })
 });
 
