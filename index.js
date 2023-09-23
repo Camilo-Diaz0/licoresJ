@@ -94,20 +94,3 @@ document.querySelector(".icon-menu").addEventListener("click", () =>{
 document.querySelector(".close-menu").addEventListener("click", () =>{
     ulMenu.classList.remove("open-menu");
 });
-
-
-cambiarImagen = (opc) =>{
-    let url;
-    if(opc == 1) url =  "imagen/licoresMovil.jpg";
-    if(opc == 2) url = "imagen/Licores j.jpg";
-
-    let img = document.querySelector(".imagen img");
-    if(img.getAttribute("src") !== url){
-        img.setAttribute("src",url);
-    }
-}
-window.onresize = function() {
-    let ancho = window.innerWidth;
-    if(ancho <= 650) cambiarImagen(1);
-    if(ancho > 650) cambiarImagen(2);
-}  
