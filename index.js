@@ -55,10 +55,6 @@ const añadir = (productos) =>{
 }
 
 window.addEventListener("DOMContentLoaded", async() =>{
-    if(window.screen.width <= 650) {
-        cambiarImagen(1)
-    }
-
     let resultado = await leerProductos()
     añadir(resultado);
 
@@ -86,6 +82,14 @@ itemMenu.forEach(a =>{
     const hash = a.getAttribute("href");
     const target = document.querySelector(hash);
     if(target) observer.observe(target);
+    a.addEventListener("click", () =>{
+        console.log(ulMenu.classList[1])
+        if(ulMenu.classList[1] == "open-menu"){
+        
+            ulMenu.classList.remove("open-menu");
+        }
+        
+    })
 });
 
 document.querySelector(".icon-menu").addEventListener("click", () =>{
