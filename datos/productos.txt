@@ -3,80 +3,80 @@
         "licor1":{
             "nombre": "Ron viejo de Caldas",
             "precio": 27000,
-            "url": "imagen/productos/ron.png"
+            "url": "imagen/productos/ron.webp"
         },
         "licor2":{
             "nombre": "Ron viejo de Caldas",
             "precio": 27000,
-            "url": "imagen/productos/Aguardiente.png"
+            "url": "imagen/productos/Aguardiente.webp"
         },
         "licor3":{
             "nombre": "Ron viejo de Caldas",
             "precio": 27000,
-            "url": "imagen/productos/ronEsencial.png"
+            "url": "imagen/productos/ronEsencial.webp"
         },
         "licor4":{
             "nombre": "Ron viejo de Caldas",
             "precio": 27000,
-            "url": "imagen/productos/tapaAzul.png"
+            "url": "imagen/productos/tapaAzul.webp"
         },"licor5":{
             "nombre": "Ron viejo de Caldas",
             "precio": 27000,
-            "url": "imagen/productos/black.png"
+            "url": "imagen/productos/black.webp"
         }
 
     },"cervezas":{
         "cerveza1":{
             "nombre": "Ron viejo de Caldas",
             "precio": 27000,
-            "url": "imagen/productos/aguila.png"
+            "url": "imagen/productos/aguila.webp"
         },
         "cerveza2":{
             "nombre": "Ron viejo de Caldas",
             "precio": 27000,
-            "url": "imagen/productos/poker.png"
+            "url": "imagen/productos/poker.webp"
         },
         "cerveza3":{
             "nombre": "Ron viejo de Caldas",
             "precio": 27000,
-            "url": "imagen/productos/redds.png"
+            "url": "imagen/productos/redds.webp"
         },
         "cerveza4":{
             "nombre": "Ron viejo de Caldas",
             "precio": 27000,
-            "url": "imagen/productos/coronita.png"
+            "url": "imagen/productos/coronita.webp"
         },
         "cerveza5":{
             "nombre": "Ron viejo de Caldas",
             "precio": 27000,
-            "url": "imagen/productos/budweiser.png"
+            "url": "imagen/productos/budweiser.webp"
         },
         "cerveza6":{
             "nombre": "Ron viejo de Caldas",
             "precio": 27000,
-            "url": "imagen/productos/smirnoff-ori.png"
+            "url": "imagen/productos/smirnoff-ori.webp"
         },
         "cerveza7":{
             "nombre": "Ron viejo de Caldas",
             "precio": 27000,
-            "url": "imagen/productos/smirnoff-green.png"
+            "url": "imagen/productos/smirnoff-green.webp"
         }
 
     },"cigarros":{
         "cigarros1":{
             "nombre": "Ron viejo de Caldas",
             "precio": 27000,
-            "url": "imagen/productos/chesterfield.png"
+            "url": "imagen/productos/chesterfield.webp"
         },
         "cigarros2":{
             "nombre": "Ron viejo de Caldas",
             "precio": 27000,
-            "url": "imagen/productos/chesterfield-white.png"
+            "url": "imagen/productos/chesterfield-white.webp"
         },
         "cigarros3":{
             "nombre": "Ron viejo de Caldas",
             "precio": 27000,
-            "url": "imagen/productos/chesterfield-green.png"
+            "url": "imagen/productos/chesterfield-green.webp"
         }
     }
 }
